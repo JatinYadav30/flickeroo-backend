@@ -5,7 +5,7 @@ const prisma = new PrismaClient();
 // Start the express server
 const app = express();
 
-app.get("/ping", (req, res) => {
+app.get("/", (req, res) => {
   res.json({ message: "pong" });
 });
 
